@@ -49,6 +49,7 @@ Using the song and log datasets, I created a star schema optimized for queries o
  
     Columns: start_time, hour, day, week, month, year, weekday
     
+  ![ER Diagram](./sparkifydb_erd.png)
 ## Project Structure:
 
 1. [test.ipynb](./test.ipynb) displays the first few rows of each table to let you check your database.
