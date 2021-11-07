@@ -11,6 +11,12 @@ services:
     volumes:
       - postgres_volume:/var/lib/postgresql/data/
     network_mode: host
+  cassandra:
+    image: cassandra
+    ports:
+      - 9042:9042
+    volumes:
+      - cassandra_volume:/var/lib/cassandra    
   jupyter:
     image: jupyter/all-spark-notebook
     environment:
@@ -24,3 +30,4 @@ services:
 
 volumes:
   postgres_volume:
+  cassandra_volume:
