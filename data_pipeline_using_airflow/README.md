@@ -57,7 +57,7 @@ The final operator to create was the data quality operator, which is used to run
 
 ## Project Structure
 
-1. [airflow directory](./airflow) Folder containing the dag and the custom operators.
+1. [airflow](./airflow) Folder containing the dag and the custom operators.
 1. [images](./images) Images used in this readme.
 1. [README.md](./README.md) This file.
 
